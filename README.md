@@ -26,13 +26,13 @@ familiar with Ultima Online, this project is propably not for you.
 
 ### Build image and run server
 
-  $ docker build . -t sphereserver
+  $ docker build . -t sphereserver\
   $ docker-compose up -d
 
 Attach to the running server:
   
-  $ docker attach sphereserver
-  account add <user> <password>
-  account <user> plevel 7
-  #
+  $ docker attach sphereserver\
+  account add <user> <password>\
+  account <user> plevel 7\
+  #\
   ctrl-p ctrl-q
