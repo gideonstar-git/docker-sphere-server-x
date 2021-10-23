@@ -1,0 +1,16 @@
+version: "3"
+services:
+  sphereserver:
+    image: sphereserver
+    container_name: sphereserver
+    tty: true
+    stdin_open: true
+    ports:
+      - 2593:2593
+    volumes:
+      - ./files/sphere.ini:/sphereserver/sphere.ini
+      - ./files/accounts:/sphereserver/accounts
+      - ./files/logs:/sphereserver/logs
+      - ./files/mul:/sphereserver/mul
+      - ./files/save:/sphereserver/save
+      - ./files/scripts:/sphereserver/scripts
