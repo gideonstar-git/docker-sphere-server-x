@@ -32,7 +32,7 @@ familiar with Ultima Online, this project is propably not for you.
 Attach to the running server:
   
   $ docker attach sphereserver\
-  account add <user> <password>\
+  account add \<user\> \<password\>\
   account <user> plevel 7\
   #\
   ctrl-p ctrl-q
